@@ -1,0 +1,50 @@
+.footer{
+    background-color: #000;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+.footer-btn{
+    min-width: 185px;
+    height: 48px;
+    padding: 12px 32px;
+    font-weight: 700;
+font-size: 16px;
+line-height: 1.5;
+/* identical to box height, or 150% */
+
+color: #000000;
+display: block;
+background: #FFFFFF;
+border-radius: 6px;
+margin-left: auto;
+}
+.footer-content{
+    display: flex;
+    margin-bottom: 64px;
+}
+
+.footer-nav{
+    display: flex;
+}
+.footer-list{
+    display: flex;
+}
+.footer-item:not(:last-child){
+    margin-right: 16px;
+}
+.footer-link{
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+/* identical to box height, or 150% */
+
+
+color: #FFFFFF
+}
+.footer-contact{
+    display: flex;
+    margin-left: auto;
+}
+.footer-contact-item:not(:last-child){
+    margin-right: 10px;
+}

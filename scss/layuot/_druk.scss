@@ -1,0 +1,57 @@
+.druk{
+    padding-top: 100px;
+    padding-bottom: 114px;
+    background-color: #000;
+    text-align: center;
+}
+.druk-svg{
+    background-color: #fff;
+}
+
+
+.druk-logo {
+    font-weight: 700;
+font-size: 18px;
+line-height: 1.5;
+/* identical to box height, or 150% */
+
+text-align: center;
+
+color: #FFFFFF;
+margin-bottom: 40px;
+}
+.druk-tittle {
+    font-weight: 400;
+font-size: 40px;
+line-height: 1.2;
+/* or 120% */
+
+text-align: center;
+
+color: #FFFFFF;
+margin-bottom: 40px;
+}
+.druk-name {
+    font-weight: 700;
+font-size: 18px;
+line-height: 1.5;
+/* identical to box height, or 150% */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+.druk-company {
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+/* identical to box height, or 150% */
+
+text-align: center;
+
+color: rgba(255, 255, 255, 0.7);
+margin-bottom: 30px;
+}
+.druk-content{
+    display: flex;
+}

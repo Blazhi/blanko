@@ -419,4 +419,91 @@ a {
   color: #000000;
   margin-top: 24px;
   margin-left: 33px;
+}
+
+.modal-container {
+  background: #FF7143;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+}
+
+.modal-content {
+  text-align: center;
+}
+
+.modal__tittle {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 1;
+  color: #000000;
+  margin-bottom: 27px;
+}
+
+.modal__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #000000;
+  margin-bottom: 22px;
+}
+
+.modal-btn-first {
+  min-width: 226px;
+  height: 64px;
+  background: #000000;
+  border-radius: 6px;
+  padding: 20px 32px;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.33;
+  margin-right: 8px;
+}
+
+.modal-btn {
+  width: 208px;
+  height: 64px;
+  padding: 20px 32px;
+  background: #FFFFFF;
+  border-radius: 6px;
+  color: #000;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.33;
+  margin-bottom: 160px;
+}
+
+.modal__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 22px;
+}
+
+.modal-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.modal-label-text {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.modal-label-post-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  /* identical to box height, or 150% */
+}
+
+.modal-span {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.6;
+  /* identical to box height, or 160% */
+  color: rgba(0, 0, 0, 0.6);
 }/*# sourceMappingURL=main.css.map */

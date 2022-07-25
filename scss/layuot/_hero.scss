@@ -1,39 +1,30 @@
 .hero{
-    background-color: #FF7143;
-
-    padding-top: 91px;
-    padding-bottom: 100px;
-    text-align: center;
-    
+    background: #FF7143;
+   
 }
-
 .hero-container{
     display: flex;
-
 }
-
+.hero-content{
+    text-align: center;
+    padding-top: 91px;
+   padding-bottom: 100px;
+   margin-left: 103px;
+    margin-right: 253px;
+}
 .hero__tittle{
     font-weight: 700;
     font-size: 72px;
     line-height: 1;
-
-
-    text-align: center;
-
     color: #000000;
     margin-bottom: 27px;
 }
-
-
-
 
 .hero__text{
     font-weight: 400;
     font-size: 18px;
     line-height: 1.5;
-
-    text-align: center;
-
+    
     color: #000000;
     margin-bottom: 22px;
 }
@@ -76,9 +67,29 @@
     margin-right: 10px;
 }
 
+.hero-label-text{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 16px;
+    text-align: center;
+}
+.hero-label-post-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+/* identical to box height, or 150% */
+
+}
+
+.hero-span{
+    font-weight: 400;
+    font-size: 15px;
+    line-height:1.60;
+/* identical to box height, or 160% */
+    color: rgba(0, 0, 0, 0.6);
+}
+
 .hero-img{
-    height: 860px;
-    left: 67.42%;
-    right: 0%;
-    top: -128px;
+
 }

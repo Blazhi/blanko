@@ -11,10 +11,20 @@
     border-radius: 0px;
     padding: 26px;
     width: 100px;height: 100px;
+    margin-right: 24px;
 }
 .icon-img{
     float: left;
 }
 .icon-tittle{
-    text-align: right;
+    margin-bottom: 12px;
+}
+.icon-item:not(:last-child){
+    margin-right: 51px;
+}
+.icon-wrap{
+    display: flex;
+}
+.icon-text{
+    max-width: 257px;
 }

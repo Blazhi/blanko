@@ -45,8 +45,6 @@ a {
 
 .container {
   width: 100%;
-  padding-left: 15px;
-  padding-right: 15px;
   margin: 0 auto;
 }
 @media screen and (min-width: 480px) {
@@ -134,21 +132,25 @@ a {
 }
 
 .hero {
-  background-color: #FF7143;
-  padding-top: 91px;
-  padding-bottom: 100px;
-  text-align: center;
+  background: #FF7143;
 }
 
 .hero-container {
   display: flex;
 }
 
+.hero-content {
+  text-align: center;
+  padding-top: 91px;
+  padding-bottom: 100px;
+  margin-left: 103px;
+  margin-right: 253px;
+}
+
 .hero__tittle {
   font-weight: 700;
   font-size: 72px;
   line-height: 1;
-  text-align: center;
   color: #000000;
   margin-bottom: 27px;
 }
@@ -157,7 +159,6 @@ a {
   font-weight: 400;
   font-size: 18px;
   line-height: 1.5;
-  text-align: center;
   color: #000000;
   margin-bottom: 22px;
 }
@@ -199,11 +200,27 @@ a {
   margin-right: 10px;
 }
 
-.hero-img {
-  height: 860px;
-  left: 67.42%;
-  right: 0%;
-  top: -128px;
+.hero-label-text {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.hero-label-post-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  /* identical to box height, or 150% */
+}
+
+.hero-span {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.6;
+  /* identical to box height, or 160% */
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .icon {
@@ -221,6 +238,7 @@ a {
   padding: 26px;
   width: 100px;
   height: 100px;
+  margin-right: 24px;
 }
 
 .icon-img {
@@ -228,14 +246,32 @@ a {
 }
 
 .icon-tittle {
-  text-align: right;
+  margin-bottom: 12px;
 }
 
-.druk {
+.icon-item:not(:last-child) {
+  margin-right: 51px;
+}
+
+.icon-wrap {
+  display: flex;
+}
+
+.icon-text {
+  max-width: 257px;
+}
+
+.druk-container {
+  display: flex;
+  background-color: #000;
+}
+
+.druk-content {
+  text-align: center;
   padding-top: 100px;
   padding-bottom: 114px;
-  background-color: #000;
-  text-align: center;
+  margin-right: 160px;
+  margin-left: 117px;
 }
 
 .druk-svg {
@@ -244,10 +280,8 @@ a {
 
 .druk-logo {
   font-weight: 700;
-  font-size: 18px;
+  font-size: 35px;
   line-height: 1.5;
-  /* identical to box height, or 150% */
-  text-align: center;
   color: #FFFFFF;
   margin-bottom: 40px;
 }
@@ -256,8 +290,7 @@ a {
   font-weight: 400;
   font-size: 40px;
   line-height: 1.2;
-  /* or 120% */
-  text-align: center;
+  max-width: 576px;
   color: #FFFFFF;
   margin-bottom: 40px;
 }
@@ -266,8 +299,6 @@ a {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.5;
-  /* identical to box height, or 150% */
-  text-align: center;
   color: #FFFFFF;
 }
 
@@ -275,14 +306,12 @@ a {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  /* identical to box height, or 150% */
-  text-align: center;
   color: rgba(255, 255, 255, 0.7);
   margin-bottom: 30px;
 }
 
-.druk-content {
-  display: flex;
+.druk-img {
+  margin-right: 0;
 }
 
 .footer {
@@ -338,4 +367,56 @@ a {
 
 .footer-contact-item:not(:last-child) {
   margin-right: 10px;
+}
+
+.landing-pages {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #fff;
+}
+
+.landing-pages-tittle {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.2;
+  color: #000000;
+  margin-bottom: 26px;
+}
+
+.landing-pages-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.landing-pages-item {
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 8px 8px rgba(16, 19, 80, 0.12);
+  border-radius: 6px;
+  width: 414px;
+  height: 450px;
+  margin-right: 12px;
+  margin-bottom: 16px;
+}
+
+.landing-pages-card {
+  background-color: #000;
+  width: 414px;
+  height: 374px;
+  position: relative;
+  padding: 40px;
+}
+
+.landing-pages-img {
+  position: absolute;
+  bottom: 0;
+}
+
+.landing-pages-text {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.4;
+  color: #000000;
+  margin-top: 24px;
+  margin-left: 33px;
 }/*# sourceMappingURL=main.css.map */

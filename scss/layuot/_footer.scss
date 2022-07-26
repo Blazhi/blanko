@@ -24,10 +24,17 @@ margin-left: auto;
 }
 
 .footer-nav{
-    display: flex;
+    @media screen and (min-width: 768px){
+        display: flex;
+    }
+    
 }
 .footer-list{
-    display: flex;
+    margin-bottom: 10px;
+    text-align: center;
+    @media screen and (min-width: 768px){
+        display: flex;
+    }
 }
 .footer-item:not(:last-child){
     margin-right: 16px;
@@ -43,7 +50,12 @@ color: #FFFFFF
 }
 .footer-contact{
     display: flex;
-    margin-left: auto;
+    align-items: center;
+    justify-content: center;
+    @media screen and (min-width: 768px){
+        margin-left: auto;
+    }
+    
 }
 .footer-contact-item:not(:last-child){
     margin-right: 10px;

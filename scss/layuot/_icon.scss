@@ -5,12 +5,18 @@
 
 .icon-list{
     display: flex;
+    flex-wrap: wrap;
+    @media screen and (max-width: 1279px){
+        align-items: center;
+        justify-content: center;
+    }
 }
 .icon-label{
     background: #FDE7DA;
     border-radius: 0px;
     padding: 26px;
-    width: 100px;height: 100px;
+    width: 100px;
+    height: 100px;
     margin-right: 24px;
 }
 .icon-img{
@@ -20,7 +26,13 @@
     margin-bottom: 12px;
 }
 .icon-item:not(:last-child){
-    margin-right: 51px;
+    @media screen and (max-width: 1279px){
+        margin-bottom: 30px;
+    }
+    @media screen and (min-width: 1280px){
+        margin-right: 51px;
+    }
+
 }
 .icon-wrap{
     display: flex;

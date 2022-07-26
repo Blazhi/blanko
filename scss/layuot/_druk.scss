@@ -5,6 +5,9 @@
 .druk-container{
     display: flex;
     background-color: #000;
+    padding-left: 0;
+    padding-right: 0;
+    flex-wrap: wrap;
 }
 
 .druk-content{
@@ -48,5 +51,9 @@
     margin-bottom: 30px;
 }
 .druk-img{
+    @media screen and (max-width: 1279px){
+        margin-left: auto;
+        margin-right: auto;
+    }
     margin-right: 0;
 }

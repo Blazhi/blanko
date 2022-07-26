@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./dist/css/main.min.css">
 </head>
 <body>
     <header class="header">
@@ -20,8 +20,8 @@
                 <svg class="header__icon" width="112" height="36">
                     <use href="./images/symbol-defs.svg#icon-IMAGE"></use></svg>
             </a>
-        <a href="" class="header__contact">mail@blanko.com</a>  
 
+            <a href="" class="header__contact">mail@blanko.com</a>
         <nav>
             <ul class="header__nav-list list">
                 <li class="header__nav-item">
@@ -54,8 +54,62 @@
                 Purchase template
             </button>
         </div>
+
+        <button type="button" class="menu-btn-open" >
+            <svg class="icon-open" width="40" height="40">
+                <use href="./images/symbol-defs.svg#icon-menu">
+            </use></svg>
+        </button>  
     </div>
     </div>
+
+
+ <div class="mob-menu is-hidden">
+    <div class="container">
+        <div class="mob-menu-top">
+            <button type="button" class="menu-btn-close" >
+                <svg class="icon-close" width="40" height="40">
+                    <use href="./images/symbol-defs.svg#icon-close">
+                </use></svg>
+            </button> 
+
+            <ul class="menu__nav-list list">
+                <li  class="menu__nav-item"> 
+                    <a href="" class="menu__contact">mail@blanko.com</a> 
+                </li>
+                <li class="menu__nav-item">
+                  <a class="menu__nav-link" href="">Landing
+                    <svg class="menu__nav-icon" width="7.5" height="8.5">
+                    <use href="./images/symbol-defs.svg#vector"></use></svg>
+                </a>
+                </li>
+                <li class="menu__nav-item">
+                    <a class="menu__nav-link" href="">All pages
+                        <svg class="menu__nav-icon" width="7.5" height="8.5">
+                        <use href="./images/symbol-defs.svg#vector"></use></svg>
+                    </a>
+                </li>
+                <li class="menu__nav-item">
+                    <a class="menu__nav-link" href="">Template
+                        <svg class="menu__nav-icon" width="7.5" height="8.5">
+                        <use href="./images/symbol-defs.svg#vector"></use></svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="mob-menu-bottom">
+            <a class="menu-mob-link" href="">Sign up
+                <svg class="menu-mob__nav-icon" width="7.5" height="8.5">
+                <use href="./images/symbol-defs.svg#vector"></use></svg>
+            </a>
+            <button type="button" class="menu-mob-btn">
+                Purchase template
+            </button>
+        </div>
+
+    </div>
+ </div>
     </header>
 <main>
     <!--hero-->
@@ -99,11 +153,11 @@
        <p class="hero-label-post-text">Rated 5/5 <span class="hero-span">- 129 Reviews</span></p>
     </div>
 
-    <div>
+    <div class="hero-card">
         <img  class="hero-img" src="./images/hero.jpg" alt="" width="417" height="860">
     </div>
 </div>
-   </section>
+</section>
 
  
 <!--icon-->
@@ -149,7 +203,7 @@
    </ul>
   
 </div>
-   </section>
+</section>
 <!--druk-->
 <section class="druk">
 <div class="container druk-container">
@@ -171,9 +225,10 @@
     </div>
 </div>      
 </section>
+
 <!--Landing pages-->
 <section class="landing-pages">
-<div class="container">
+<div class="container landing-pages-container">
     <h2 class="landing-pages-tittle">Landing pages</h2>
     <ul class="landing-pages-list list">
         <li class="landing-pages-item">
@@ -211,9 +266,11 @@
             <h1 class="modal__tittle">Ready to scale<br> your business?</h1>
             <p class="modal__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Odio mauris porttitor amet volutpat.
             </p>
-    
-            <button type="button" class="modal-btn-first">Purchase template</button>
-            <button type="button" class="modal-btn">Other templates</button>
+    <div class="modal-button">
+        <button type="button" class="modal-btn-first">Purchase template</button>
+        <button type="button" class="modal-btn">Other templates</button>
+    </div>
+           
         
         
            <ul class="modal__list list">
@@ -264,7 +321,7 @@
                         </div>
                 </div>
                 <div class="modal-form__field">
-                    <input type="checkbox" class="modal-form__check visually-hidden"
+                    <input type="checkbox" class="modal-form__check"
                     id="modal-check" name="privacy-check" />
                     
                     <label for="modal-check" class="modal-form__check-text">I agree to the privacy policy</label>
@@ -277,7 +334,7 @@
     </div>
 </section>
 </main>
-<!--footer-->
+    <!--footer-->
 <footer class="footer">
 <div class="container">
     <div class="footer-content">
@@ -328,5 +385,6 @@
 
 </div>
 </footer>
+<script src="./js/menu.js"></script>
 </body>
 </html>

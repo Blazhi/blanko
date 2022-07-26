@@ -744,18 +744,25 @@ a {
   background: #FFFFFF;
   box-shadow: 0px 24px 24px rgba(0, 0, 0, 0.12);
   border-radius: 0px;
-  width: 440px;
-  height: 554px;
+  max-width: 440px;
+  max-height: 554px;
 }
 @media screen and (max-width: 1279px) {
   .modal-card {
     margin-left: auto;
     margin-right: auto;
+    max-width: 350px;
+    max-height: 500px;
   }
 }
 
 .modal-form {
   padding: 40px;
+}
+@media screen and (max-width: 1279px) {
+  .modal-form {
+    padding: 20px;
+  }
 }
 
 .modal-form__tittle {
@@ -798,7 +805,7 @@ a {
 }
 
 .modal-btn-submit {
-  min-width: 360px;
+  width: 360px;
   height: 64px;
   background: #000000;
   border-radius: 6px;
@@ -808,6 +815,14 @@ a {
   color: #FFFFFF;
   margin-bottom: 16px;
 }
+@media screen and (max-width: 1279px) {
+  .modal-btn-submit {
+    display: inline-block;
+    max-width: 300px;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+}
 
 .modal-sign {
   font-weight: 400;
@@ -815,7 +830,6 @@ a {
   line-height: 1.5;
   color: #000000;
   text-align: center;
-  margin-left: 77px;
 }
 
 .treaty {

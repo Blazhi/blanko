@@ -575,11 +575,6 @@ a {
   padding-bottom: 100px;
   background-color: #fff;
 }
-@media screen and (max-width: 1279px) {
-  .landing-pages {
-    display: none;
-  }
-}
 
 .landing-pages-container {
   padding-left: 0;
@@ -648,11 +643,12 @@ a {
   line-height: 1.4;
   color: #000000;
   margin-top: 24px;
-  margin-left: 33px;
+  text-align: center;
 }
-@media screen and (max-width: 1279px) {
+@media screen and (min-width: 1280px) {
   .landing-pages-text {
-    text-align: center;
+    margin-left: 33px;
+    text-align: left;
   }
 }
 

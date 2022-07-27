@@ -41,11 +41,8 @@
         width: 151px;
     }
 }
-.header__nav-icon{
-    @media screen and (max-width:1280px){
-        display: none;
-    }
-}
+
+
 .header__nav-list{
     @media screen and (max-width:767px){
         display: none;

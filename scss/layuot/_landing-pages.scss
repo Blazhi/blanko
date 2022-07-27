@@ -27,13 +27,15 @@
     max-width: 414px;
     max-width: 450px;
     margin-bottom: 16px;
-    margin-right: 12px;
+    
 
     @media screen and (min-width: 768px){
         flex-basis:calc(50% - 30px);
+        margin-right: 20px;
     }
     @media screen and (min-width: 1280px){
-        flex-basis:calc(33.3333333333% - 30px)
+        flex-basis:calc(33.3333333333% - 30px);
+        margin-right: 12px;
     }
 }
 .landing-pages-card{

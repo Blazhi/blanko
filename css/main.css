@@ -523,6 +523,12 @@ a {
   border-radius: 6px;
   margin-left: auto;
 }
+@media screen and (max-width: 768px) {
+  .footer-btn {
+    width: 140px;
+    font-size: 12px;
+  }
+}
 
 .footer-content {
   display: flex;
@@ -603,16 +609,17 @@ a {
   max-width: 414px;
   max-width: 450px;
   margin-bottom: 16px;
-  margin-right: 12px;
 }
 @media screen and (min-width: 768px) {
   .landing-pages-item {
     flex-basis: calc(50% - 30px);
+    margin-right: 20px;
   }
 }
 @media screen and (min-width: 1280px) {
   .landing-pages-item {
     flex-basis: calc(33.3333333333% - 30px);
+    margin-right: 12px;
   }
 }
 

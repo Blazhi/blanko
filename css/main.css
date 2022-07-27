@@ -448,6 +448,12 @@ a {
   margin-right: 160px;
   margin-left: 117px;
 }
+@media screen and (max-width: 768px) {
+  .druk-content {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 
 .druk-svg {
   background-color: #fff;
@@ -569,6 +575,11 @@ a {
   padding-bottom: 100px;
   background-color: #fff;
 }
+@media screen and (max-width: 1279px) {
+  .landing-pages {
+    display: none;
+  }
+}
 
 .landing-pages-container {
   padding-left: 0;
@@ -586,7 +597,6 @@ a {
 .landing-pages-list {
   display: flex;
   flex-wrap: wrap;
-  margin: -8px;
 }
 
 .landing-pages-item {
@@ -596,16 +606,14 @@ a {
   border-radius: 6px;
   width: 414px;
   height: 450px;
-  margin: 8px;
+  margin-bottom: 16px;
+  margin-right: 12px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 1279px) {
   .landing-pages-item {
-    flex-basis: calc(50% - 16px);
-  }
-}
-@media screen and (min-width: 1280px) {
-  .landing-pages-item {
-    flex-basis: calc(33% - 16px);
+    margin-right: 14px;
+    width: 100%;
+    height: 100%;
   }
 }
 
@@ -751,7 +759,7 @@ a {
   .modal-card {
     margin-left: auto;
     margin-right: auto;
-    max-width: 350px;
+    max-width: 300px;
     max-height: 500px;
   }
 }
@@ -818,9 +826,10 @@ a {
 @media screen and (max-width: 1279px) {
   .modal-btn-submit {
     display: inline-block;
-    max-width: 300px;
+    width: 100%;
     margin-bottom: 10px;
     align-items: center;
+    font-size: 10px;
   }
 }
 
